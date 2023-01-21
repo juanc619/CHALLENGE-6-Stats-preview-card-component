@@ -103,3 +103,35 @@ p {
 }
 .footer a { 
     color: hsl(228, 45%, 44%); }
+
+
+@media only screen and (min-width : 1200px) {
+    main {
+        width: 1110px;
+        height: 448px;
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 178px auto;
+    }
+    .image {
+        width: 540px;
+        height: 100%;
+        background-image: url(/images/image-header-desktop.jpg);
+    }
+    .section2 {
+        padding: 75px 70px;
+        text-align: left;
+    }
+    h1 {
+        font-size: 2.5em;
+        text-align: left;
+    }
+    p {
+        margin-right: 70px;
+    }
+    .stats {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 70px;
+    }
+}
